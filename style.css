@@ -278,9 +278,112 @@ body{
     line-height: 24px;
 }
 
+/* featured-episodes-section */
 
+#featured-episodes-section{
+    max-width: 1600px;
+    padding: 120px 200px;
+    background-color: #1A0B2E;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 120px;
+}
+.featured-episodes{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 40px;
+}
+.featured-episodes h1,.meet-the-host h1{
+    text-align: center;
+    font-size: 48px;
+    font-weight: 900;
+    color: #FFFFFF;
+}
+.card-contain{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    gap: 30px;
 
+}
+.card{
+    background-color: #35116578;
+    width: 380px;
+    height: 440px;
+    border-radius: 25px;
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+}
+.card iframe{
+    border-radius: 25px 25px 0px 0px;
+}
+.card-info{
+    padding: 24px;
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+}
+.card-info h2, .host-container h2{
+    color: rgba(255, 255, 255, 0.831);
+    font-size: 24px;
+    font-weight: 700;
+}
+.card-info p, .host-container p{
+    font-size: 16px;
+    font-weight: 400;
+    color:rgba(255, 255, 255, 0.418);
+}
+.time{
+    color: #00FF88;
+    display: flex;
+    flex-direction: row;
+    gap: 6px;
+    font-size: 20px;
+    font-weight: 600;
+    align-items: center;
+}
+.time img{
+    width: 20px;
+    height: 20px;
+}
+.meet-the-host{
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+}
+.profile{
+    display: flex;
+    flex-direction: row;
+    gap: 24px;
+    background-color:  #35116578;
+    padding: 40px;
+    border-radius: 40px;
+}
+.host-container{
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+.icons{
+    display: flex;
+    justify-content: space-between;
+    width: 184px; 
+}
+.icon{
+    border: 1px solid #533C72;
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
 
+/* footer section */
 
 
 
@@ -392,7 +495,20 @@ banner-contain{
     grid-column: span 2;
 }
 
-
+/* Featured Episodes section */
+#featured-episodes-section{
+    padding: 50px 40px;
+    gap: 50px;
+}
+.card-contain{
+    flex-direction: column;
+}
+.profile{
+    flex-direction: column;
+}
+.featured-episodes h1,.meet-the-host h1 {
+    font-size: 30px;
+}
 }
 
 
@@ -464,5 +580,19 @@ banner-contain{
     grid-column: span 2;
 }
 
+/* Featured Episodes section */
+#featured-episodes-section{
+    padding: 100px 180px;
+    gap: 80px;
+}
+.card-contain{
+    flex-direction: column;
+}
+.profile{
+    flex-direction: column;
+}
+.featured-episodes h1,.meet-the-host h1 {
+    font-size: 40px;
+}
     
 }
