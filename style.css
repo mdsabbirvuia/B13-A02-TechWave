@@ -387,9 +387,32 @@ body{
 /* footer section */
 footer{
     max-width: 1600px;
-
+    background-image: url(./assets/footer-bg.png);
+    padding: 120px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 32px;
 }
-
+.icon-box{
+    max-width: 599px;
+    display: flex;
+    justify-content: space-between;
+    gap: 40px;
+}
+.icon-box .box{
+    display: flex;
+    gap: 8px
+}
+.box p, footer .copy-right{
+    font-size: 18px;
+    font-weight: 400;
+    color:rgba(255, 255, 255, 0.418);
+}
+.box img{
+    height: 24px;
+    width: 24px;
+}
 
 
 
@@ -407,6 +430,8 @@ footer{
     /* navbar responsive */
 .nav-container{
     padding: 16px 20px;
+    display: flex;
+    justify-content: space-between;
 }
 .about{
     display: none;
@@ -420,15 +445,14 @@ footer{
     align-self: center;
 }
 .logo img{
-    width: 137px;
+    width: 117px;
     height: 20px;
 }
 /* banner section responsive */
 #banner{
     max-width: 550px;
-    padding: 50px;
+    padding: 40px 20px;
     background-position: center;
-    padding: 50px;
 }
 banner-contain{
     max-width: 400px;
@@ -509,16 +533,27 @@ banner-contain{
 }
 .profile{
     flex-direction: column;
+    text-align: center;
 }
 .featured-episodes h1,.meet-the-host h1 {
     font-size: 30px;
 }
+
+/* footer section */
+footer{
+    max-width: 576px;
+    padding: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 32px;
 }
-
-
-
-
-
+.icon-box{
+    max-width: 300px;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+}
+}
 
 
 @media screen and (min-width:576px) and (max-width:992px) {
